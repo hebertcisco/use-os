@@ -1,4 +1,4 @@
-export { Uuid } from './helpers/uuid';
-import uuid from './helpers/uuid';
+import useOs from './lib/useOs';
+export { useOs } from './lib';
 
-export default uuid;
+export default useOs;

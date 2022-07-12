@@ -1,7 +1,7 @@
 {
-  "name": "ts-npm-package-boilerplate",
-  "version": "0.1.5",
-  "description": "TypeScript NPM Module Boilerplate",
+  "name": "use-os",
+  "version": "1.0.1",
+  "description": "React Package to show OS type",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
@@ -18,20 +18,26 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hebertcisco/ts-npm-package-boilerplate.git"
+    "url": "git+https://github.com/hebertcisco/use-os.git"
   },
   "keywords": [
-    "boilerplate",
-    "typescript"
+    "OS",
+    "Linux",
+    "mac",
+    "fedora",
+    "windows",
+    "react"
   ],
   "author": "Hebert Cisco",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/hebertcisco/ts-npm-package-boilerplate/issues"
+    "url": "https://github.com/hebertcisco/use-os/issues"
   },
-  "homepage": "https://github.com/hebertcisco/ts-npm-package-boilerplate#readme",
+  "homepage": "https://github.com/hebertcisco/use-os#readme",
   "devDependencies": {
     "@types/jest": "28.1.1",
+    "@types/react": "^18.0.15",
+    "@types/react-dom": "^18.0.6",
     "@typescript-eslint/eslint-plugin": "5.27.0",
     "@typescript-eslint/parser": "5.27.0",
     "eslint": "8.17.0",
@@ -43,5 +49,9 @@
   },
   "files": [
     "lib/**/*"
-  ]
+  ],
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
 }
