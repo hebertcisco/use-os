@@ -2,6 +2,6 @@ import useOs from '../index';
 
 describe('useOs', () => {
   test('should toBeDefined the useOs', () => {
-    expect(useOs).toBeDefined();
+    expect(useOs.name).toBeDefined();
   });
 });
