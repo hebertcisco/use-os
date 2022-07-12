@@ -1,4 +1,4 @@
-import useOs from './lib/useOs';
-export { useOs } from './lib';
+import useOs from './hooks/useOs';
+export { useOs } from './hooks';
 
 export default useOs;
