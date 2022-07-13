@@ -1,6 +1,6 @@
 {
   "name": "use-os",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "React Package to show OS type",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
