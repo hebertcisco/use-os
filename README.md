@@ -9,6 +9,27 @@
 
 ## Installation
 
+Using NPM:
+
+```bash
+# Using NPM
+npm install --save use-os
+```
+
+Using PNPM:
+
+```bash
+# Using PNPM
+pnpm add use-os
+```
+
+Using YARN:
+
+```bash
+# Using YARN
+yarn add use-os
+```
+
 > Clone this repository: `git clone https://github.com/hebertcisco/use-os`
 
 ### Open the directory and install the dependencies
@@ -20,13 +41,13 @@ npm install
 
 ## Using
 
-```js
+```jsx
 import useOs from 'use-os';
 ```
 
 In react component:
 
-```js
+```jsx
 export default function HomePage() {
   const os = useOs();
 
